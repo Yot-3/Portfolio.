@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gavyn Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preload" href="images/unnamed.jpg" as="image">
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="index.html"><button>Home</button></a>
+        <a href="about.html"><button>About</button></a>
+        <a href="projects.html"><button>Projects</button></a>
+        <a href="contact.html"><button>Contact</button></a>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <img src="images/unnamed.jpg" alt="Gavyn Page" loading="lazy" />
+                </div>
+                <div class="profile-info">
+                    <h1>Gavyn Page</h1>
+                    <div class="location">
+                        <span class="flag">🇺🇸</span>
+                        <span>Based in Shreveport, Louisiana</span>
+                    </div>
+                </div>
+                <button class="contact-btn" onclick="window.location.href='contact.html'">
+                    <span>✈️</span>
+                    Contact me
+                </button>
+            </div>
+            <div class="title-section">
+                <h2>Data Analyst<br>Software Engineer Student</h2>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/gavyn-page-b90522251" class="social-icon" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-icon" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gavyn-page-b90522251" class="social-icon" target="_blank" rel="noopener" aria-label="Resume">
+                    <i class="fas fa-file-alt"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="work" aria-label="Work Experience">Work</button>
+                <button class="tab-btn" data-tab="studies" aria-label="Studies">Studies</button>
+            </div>
+            <div class="tab-content active" id="work">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon" style="background: linear-gradient(135deg, #ffffff, #fefefe);">
+                            <img src="images/spectrum_paint_logo.jpg" alt="Spectrum Paint Logo" loading="lazy" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover;"" />
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Mar 2025 - Present · 4 mos</span>
+                            <h3>Spectrum Paint</h3>
+                            <p style="color: #bbb; margin: 8px 0 0 0;">Warehouse Manager · Shreveport-Bossier City · On-site</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon" style="background: linear-gradient(135deg, #ffffff, #ffffff);">
+                            <img src="images/209932033.jpg" alt="Yote Logo" loading="lazy" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover;"" />
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Oct 2023 - Feb 2025 · 1 yr 5 mos</span>
+                            <h3>Yote Professional Installs LLC.</h3>
+                            <p style="color: #bbb; margin: 8px 0 0 0;">Independent Contractor · Lafayette, LA </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon" style="background: linear-gradient(135deg, #3f3f3f, #fed6e3);">
+                            <img src="." alt="AAC" loading="lazy" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; text-align: center; margin-top: 50%;"" />
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jan 2020 - Nov 2024 · 4 yrs 11 mos</span>
+                            <h3>AAC LLC.</h3>
+                            <p style="color: #bbb; margin: 8px 0 8px 0;">Community Manager / Developer · Remote</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-icon" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                            <img src="images/logo.png" alt="Baker Hughes Logo" loading="lazy" style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; object-position: center; transform: scale(1.2);" />
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Feb 2021 - Jul 2023 · 2 yrs 6 mos</span>
+                            <h3>Baker Hughes</h3>
+                            <p style="color: #bbb; margin: 8px 0 0 0;">AMO Technician · Broussard, Louisiana, United States · On-site</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="studies">
+                <p>Studies content coming soon...</p>
+            </div>
+        </section>
+
+        <section class="tech-stack">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/javascript.svg" alt="JavaScript" loading="lazy" />
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/html5.svg" alt="HTML5" loading="lazy" />
+                    </div>
+                    <span>HTML</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/css.svg" alt="CSS3" loading="lazy" />
+                    </div>
+                    <span>CSS</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/python.svg" alt="Python" loading="lazy" />
+                    </div>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/sqlite.svg" alt="SQL" loading="lazy" />
+                    </div>
+                    <span>SQL</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/excel-file-svgrepo-com.svg" alt="Excel" loading="lazy" />
+                    </div>
+                    <span>Microsoft Excel</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/googlesheets.svg" alt="Google Sheets" loading="lazy" />
+                    </div>
+                    <span>Google Sheets</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/googleforms.svg" alt="Google Forms" loading="lazy" />
+                    </div>
+                    <span>Google Forms</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/blender.svg" alt="Blender" loading="lazy" />
+                    </div>
+                    <span>Blender</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/lua.svg" alt="Lua" loading="lazy" />
+                    </div>
+                    <span>Lua</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/csharp.svg" alt="C#" loading="lazy" />
+                    </div>
+                    <span>C#</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/cplusplus.svg" alt="C++" loading="lazy" />
+                    </div>
+                    <span>C++</span>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-logo">
+                        <img src="images/c.svg" alt="C" loading="lazy" />
+                    </div>
+                    <span>C</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of your first project goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of your second project goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of your third project goes here.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me!</p>
+            <p>Email: <a href="mailto:gpagework@gmail.com">gpagework@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/gavyn-page-b90522251" target="_blank" rel="noopener">linkedin.com/in/gavyn-page</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gavyn Page. All rights reserved.</p>
+    </footer>
+
+    <script>
+    // Configuration
+    const STAR_CONFIG = {
+        interval: 150 // How often stars spawn (milliseconds)
+    };
+
+    // Cache DOM elements
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    // Tab switching logic
+    function initTabs() {
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetTab = btn.dataset.tab;
+                
+                // Remove active states
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(tc => tc.classList.remove('active'));
+                
+                // Add active states
+                btn.classList.add('active');
+                document.getElementById(targetTab)?.classList.add('active');
+            });
+        });
+    }
+
+    // Simplified star creation
+    function createStar() {
+        const star = document.createElement('div');
+        star.className = 'star';
+        
+        // Random position
+        star.style.left = `${Math.random() * 100}vw`;
+        star.style.top = `${Math.random() * 100}vh`;
+        
+        // Set CSS custom properties for twinkle effect
+        const twinkleDuration = Math.random() * 6 + 8; // 8-14 seconds
+        star.style.setProperty('--twinkle-duration', `${twinkleDuration}s`);
+        star.style.setProperty('--star-blur', `${Math.random() * 0.5 + 0.2}px`);
+        star.style.setProperty('--star-rotation', `${Math.random() * 360}deg`);
+        
+        document.body.appendChild(star);
+        
+        // Cleanup after animation
+        setTimeout(() => star.remove(), twinkleDuration * 1000);
+    }
+
+    // Initialize
+    function init() {
+        initTabs();
+        setInterval(createStar, STAR_CONFIG.interval);
+    }
+
+    // Start when DOM is loaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+    </script>
+</body>
+</html>
